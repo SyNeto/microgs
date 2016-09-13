@@ -1,0 +1,42 @@
+/* MicroGS */
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+[class*='columns-'] {
+    float: left;
+    padding: 10px;
+
+}
+
+[class*='columns-']:last-of-type {
+    padding-right: 10px;
+    float: right;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.columns-1  {width: 8.33333%;}
+.columns-2  {width: 16.66667%;}
+.columns-3  {width: 25%;}
+.columns-4  {width: 33.33333%;}
+.columns-5  {width: 41.66667%;}
+.columns-6  {width: 50%;}
+.columns-7  {width: 58.33333%;}
+.columns-8  {width: 66.66667%;;}
+.columns-9  {width: 75%;}
+.columns-10 {width: 83.33333%}
+.columns-11 {width: 91.66667%;}
+.columns-12 {width: 100%;}
